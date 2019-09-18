@@ -842,13 +842,14 @@ img.svg{
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .progress_bar_wrap_total{
-	width: 100%;
+	width: 80%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 10px;
 	position: relative;
 	margin-top: -4px;
+	margin-left: 60px;
 	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
@@ -2547,12 +2548,15 @@ img.svg{
 /*---------------------------------------------------*/
 
 @media (max-width: 1400px) {
+	.shashan_tm_totop.opened{bottom: 20px;}
+
+
 	.shashan_tm_about_wrap .leftbox{padding-right: 0px;}
 
 }
 @media (max-width: 1200px) {
 
-
+	.shashan_tm_totop.opened{bottom: 20px;}
 
 	.shashan_tm_services_wrap .list_wrap ul li{width: 50%;}
 	#shashan_tm_popup_blog .close{right: 0px;}
@@ -2563,6 +2567,9 @@ img.svg{
 	.shashan_tm_contact_wrap_all .rightbox{width: 100%;float: none;}
 }
 @media (max-width: 1040px) {
+	.shashan_tm_totop.opened{bottom: 20px;}
+
+
 	.shashan_tm_about_wrap{flex-direction: column;}
 	.shashan_tm_about_wrap .rightpart .info_list ul li{width: 100%;}
 	.shashan_tm_about_wrap .leftpart{width: 100%;padding-right: 0px;margin-bottom: 60px;}
@@ -2581,6 +2588,24 @@ img.svg{
 	.shashan_tm_rightpart{padding-left: 0px;}
 }
 @media (max-width: 768px) {
+
+	.progress_bar_wrap_total{
+		width: 100%;
+		height: auto;
+		clear: both;
+		float: left;
+		margin-bottom: 10px;
+		position: relative;
+		margin-top: -4px;
+		margin-left: 0px;
+
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box; /* Firefox, other Gecko */
+		box-sizing: border-box; /* Opera/IE 8+ */
+	}
+
+
+
 	.shashan_tm_hero_header_wrap .name_holder h3{font-size: 40px;}
 	.shashan_tm_hero_header_wrap .text_typing p{font-size: 21px;}
 	.shashan_tm_title_holder h3{font-size: 25px;}
@@ -2599,6 +2624,23 @@ img.svg{
 	.shashan_tm_portfolio_single_wrap .title_holder h3{font-size: 45px;}
 }
 @media (max-width: 480px) {
+	.progress_bar_wrap_total{
+		width: 100%;
+		height: auto;
+		clear: both;
+		float: left;
+		margin-bottom: 10px;
+		position: relative;
+		margin-top: -4px;
+		margin-left: 0px;
+
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box; /* Firefox, other Gecko */
+		box-sizing: border-box; /* Opera/IE 8+ */
+	}
+
+
+
 	.shashan_tm_hero_header_wrap .name_holder h3{font-size: 10px;}
 	.shashan_tm_hero_header_wrap .text_typing p{font-size: 18px;}
 	.shashan_tm_title_holder:before{display: none;}

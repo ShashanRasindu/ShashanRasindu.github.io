@@ -511,7 +511,7 @@ function shashan_tm_animate_text(){
 	var animateSpan			= jQuery('.shashan_tm_animation_text_word');
 	
 		animateSpan.typed({
-			strings: ["Associate Software Engineer","Full Stack Developer","Freelancer", "Announcer", "Speaker"],
+			strings: ["Software Engineer","Full Stack Developer","Business Analyst", "Announcer", "Speaker"],
 			loop: true,
 			startDelay: 1e3,
 			backDelay: 2e3
